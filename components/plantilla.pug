@@ -1,0 +1,10 @@
+include configuraciones.pug
+doctype html
+html(lang="es")
+    include head.pug 
+    body 
+        include header.pug 
+        .container
+            include sidebar.pug
+            block contenido    
+        include footer.pug 
